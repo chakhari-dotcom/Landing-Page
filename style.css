@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+body{
+    margin: 0;
+}
+.cover{
+
+    background-image: url("images/cover.png") ;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+   
+    padding: 50px;
+    
+}
+.top_title{
+    color:white;
+    font-weight: 400;
+}
+.title{
+    
+    color:white;
+    font-size: 40px;  
+}
+
+.para1{
+    color:white;
+    font-size: 15;
+    font-weight: 200;
+    margin: 50px;
+}
+
+.btn1{
+  background-color: #5635dd;
+  color:white;
+  text-transform: uppercase;
+  width: 200px;
+  height: 40px;
+  margin-top: 50px;
+  border:none;
+  border-radius: 10px;
+}
+.btn1:hover{
+    background-color: transparent;
+    color:#5635dd;
+    border: 1px solid #5635dd;
+}
+
+/* ======================================================= */
+
+
+.about{
+    display: flex;
+    padding: 70px 50px;
+}
+.about>div{
+    width: 50%;
+}
+
+.about_img{
+    text-align: center;
+}
+
+.about_img>img{
+    width: 70%;
+}
+
+.about_title{
+    color: #170f49;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.color{
+    color: #504bff;
+}
+
+.about_subtitle{
+    color:#170f49;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: -24px;
+    width:80%;
+}
+
+.about_description{
+    color:#170f49;
+    font-size: 20px;
+    width:80%;
+    margin-top: -32px;
+}
+
+/* =============================================== */
+
+.services{
+    display:flex;
+    background-color:#5635dd;
+    padding: 40px;
+}
+
+.item-service{
+    text-align: center;
+    padding: 64px;
+    
+}   
+.item-service>h3{
+    color: white;
+    text-transform: capitalize;
+
+}
+.item-service>p{
+    color: white;
+    
+}
+
+/* =================================================== */
+
+.pricing{
+    padding: 95px;
+}
+.table-title{
+    text-align: center;
+    
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.table{
+    text-align: center;
+    
+    background-color: #5536dd1d;
+    border-radius: 24px;
+    box-shadow: 10px 10px 20px gray;
+}
+
+th{
+    background-color: #5536dd98;
+    color: white;
+    padding: 24px;
+    text-transform: capitalize;
+    border-radius: 24px 24px 0px 0px ;
+}
+td{
+    padding: 20px;
+}
+
+/* ======================================================= */
+
+.contact{
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+    background-color: #f0efff;
+    
+}
+
+.contact-title{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.inp{
+    padding: 24px;
+    margin: 12px;
+    width: 60%;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.37);
+}
+
+/* ====================================================== */
+
+.footer{
+    background-color: #170f49;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-transform: capitalize;
+}
